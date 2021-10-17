@@ -8,7 +8,7 @@ Welcome to plants's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Project Informations:
 
    hardware
 

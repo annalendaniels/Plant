@@ -4,3 +4,15 @@
 
 # Plant
 Project for the monitoring and optimization of plant care.
+
+### Documentation
+
+You can build the documentation as follows:
+
+```python
+cd docs
+make html
+cd build/html
+firefox index.html
+```
+
