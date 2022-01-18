@@ -9,6 +9,9 @@ temperature_sensor = plant.sensors.temperature_sensors.BMP180()
 
 example_plant = plant.Plant(sensors=[light_sensor, temperature_sensor])
 
+print("Initializing sensors")
+time.sleep(5)
+
 while True:
     data = example_plant.collect_plant_data()  # collect a dict of data
     example_plant.report_plant_data(data=data)  # print it to the screen

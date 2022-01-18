@@ -34,6 +34,8 @@ class Plant:
         for item in self.sensor_list:
             plant_data[item.__class__.__name__] = item.read_sensor()
 
+        return plant_data
+
     @staticmethod
     def report_plant_data(data: dict):
         """
