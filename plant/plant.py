@@ -52,6 +52,6 @@ class Plant:
         Prints data to the screen.
         """
         for item in data:
-            for sub_item in item:
+            for sub_item in data[item]:
                 print(f"{sub_item}: {data[item][sub_item]}")
         print("\n")  # newline for better formatting.
