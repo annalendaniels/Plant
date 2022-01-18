@@ -1,7 +1,7 @@
 """
 Module for the BH170 light sensor.
 """
-import smbus2
+import smbus
 
 
 class BH170:

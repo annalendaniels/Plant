@@ -1,7 +1,7 @@
 """
 Module for the BMP180 temperature, altitude, and humidity sensor.
 """
-import smbus2
+import smbus
 import time
 from ctypes import c_short
 

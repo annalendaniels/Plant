@@ -1,2 +1,2 @@
 numpy
-smbus2
+smbus
