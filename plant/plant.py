@@ -32,7 +32,7 @@ class Plant:
         plant_data = {}
 
         for item in self.sensor_list:
-            plant_data[item.__name__] = item.read_sensor()
+            plant_data[item.__class__.__name__] = item.read_sensor()
 
     @staticmethod
     def report_plant_data(data: dict):
