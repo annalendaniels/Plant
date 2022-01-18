@@ -30,7 +30,7 @@ class BMP180:
                 I2C bus to look for. Raspberry Pi 4 defaults to 1.
         """
         self.channel = channel
-        self.bus = smbus2.SMBus(bus)
+        self.bus = smbus.SMBus(bus)
 
     @staticmethod
     def convert_to_string(data: list):

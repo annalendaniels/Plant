@@ -29,7 +29,7 @@ class BH170:
             is defaulted to 1.
         """
         self.channel = channel
-        self.bus = smbus2.SMBus(bus)
+        self.bus = smbus.SMBus(bus)
 
     @staticmethod
     def convert_to_number(data: list):
