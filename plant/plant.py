@@ -53,5 +53,5 @@ class Plant:
         """
         for item in data:
             for sub_item in data[item]:
-                print(f"{sub_item}: {data[item][sub_item]}")
+                print(f"{sub_item}: {data[item][sub_item]: .2f}")
         print("\n")  # newline for better formatting.
